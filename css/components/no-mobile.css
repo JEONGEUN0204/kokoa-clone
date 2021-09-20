@@ -1,0 +1,39 @@
+#no-mobile{
+    position:absolute;
+    z-index:99;
+    height: 100vh;
+    width:  100vw;
+    background-color:var(--yellow) ;
+    display: flex;
+    top:0px;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+
+}
+@media screen and (max-width:645px) {
+    #no-mobile{
+        display: none;
+    }
+    
+}
+@keyframes loading {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+    
+}
+#no-mobile span:nth-child(2){
+    animation: loading 1.5s ease-in-out infinite;
+}
+#no-mobile span:nth-child(3){
+    animation: loading 1.5s ease-in-out infinite;
+    animation-delay: 0.5s;
+}
+#no-mobile span:nth-child(4){
+    animation: loading 1.5s ease-in-out infinite;
+    animation-delay: 1s;
+}
