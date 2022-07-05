@@ -1,1 +1,2 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=E3826C&height=250&section=header&text=KOKOA TALK&fontSize=90&animation=fadeIn&fontAlignY=38&desc=%20&descAlignY=62&descAlign=62)
+<h1>KOKOA TALK</h1>
+<div>html,css에 익숙해지기 위한 개인 프로젝트</div>
